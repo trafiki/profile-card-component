@@ -1,4 +1,4 @@
-![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Profile card component coding challenge](https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1605203461%2FChallenges%2Ftsdyz2ccordcztyrn8m0.jpg&w=828&q=75)
 
 # Frontend Mentor - Profile card component solution
 
@@ -40,8 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://trafiki.github.io/profile-card-component/)
 
 ## My process
 
