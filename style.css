@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+  background: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0;
+  height: 150px;
+  background: url(./images/bg-pattern-card.svg);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.card-image img {
+  margin-top: -50px;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.card-info {
+  padding: 25px 50px;
+}
+
+.card-stats {
+  padding: 30px 40px;
+  display: flex;
+  border-top: 2px solid #eee;
+  border-radius: 0 0 15px 15px;
+}
+
+.card-name, .card-stats {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card-info span, .card-stats span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.card-stats span {
+  display: block;
+  font-size: 13px;
+}
+
+.card-stats>* {
+  flex: 1;
+}
+
+.card-stats>div span {
+  margin-top: 10px;
+}
+
+.card-image, .card-info, .card-stats {
+  background: white;
+}
+
+.card-stats {
+  border-radius: 0 0 15px 15px;
+}
