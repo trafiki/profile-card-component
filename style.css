@@ -16,6 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .card-header {
@@ -30,6 +33,7 @@ body {
   width: 400px;
   max-width: 90%;
   text-align: center;
+  z-index: 50;
 }
 
 .card-image img {
@@ -84,4 +88,28 @@ body {
 
 .card-name span {
   margin-left: 6px;
+}
+
+.bg-circle-bottom {
+  position: absolute;
+  right: -300px;
+  bottom: -500px;
+}
+
+.bg-circle-top {
+  position: absolute;
+  top: -500px;
+  left: -300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-circle-bottom {
+    right: -750px;
+    bottom: -600px;
+  }
+
+  .bg-circle-top {
+    top: -600px;
+    left: -750px;
+  }
 }
